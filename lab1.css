@@ -1,0 +1,34 @@
+header #btn{
+    padding: 15px;
+}
+
+.comentario{
+    padding: 40px;
+    width: 700px;
+    margin: auto;
+    background-color: skyblue;
+    color: white;
+}
+
+.comentario .comenta{
+    width: 60%;
+    background-color: silver;
+}
+
+#btn2{
+    background-color: mediumseagreen; 
+    width: 100px;
+    height: 30px;
+}
+
+.listaComenta{
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}

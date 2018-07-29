@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="lab1.css">
+    <title>Laboratorio 1</title>
+</head>
+<body id="cuerpo" style="background-image: url();">
+    <header>
+        <div id="btn">
+            <button onclick="imagenes('loops.jpg','otono.jpg','rana.jpg')" class="btn waves-effect waves-light" type="submit" name="action" style="width: 280px;">Cambiar imagen de fondo
+                <i class="material-icons right">send</i></button>
+        </div>
+    </header>
+
+    <aside></aside>
+
+    <section>
+        <div class="comentario">
+            <p>Que haces?</p>
+            <textarea name="comentarios" rows="10" cols="40" class="comenta" id="comentario2"></textarea>
+            </br>
+            <button onclick="comentario()" type="submit" id="btn2">Agregar</button>
+        </div>
+
+        <div class="listaComenta">
+            <ul id="lista4">
+
+            </ul>
+        </div>
+
+        <div class="mapa" id="map">
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDegNSiGJ_r_wkr_YmhnrI14eCy_D3z-yQ&callback=initMap" type="text/javascript"></script>
+        </div>
+        <br></br>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="css/materialize.min.css"></script>
+<script src="maps.js"></script>
+<script src="lab1.js"></script>
+</html>
